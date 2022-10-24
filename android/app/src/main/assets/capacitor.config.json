@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "bugvid",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

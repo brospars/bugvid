@@ -5,6 +5,10 @@ import { FormsModule } from '@angular/forms';
 import { HomePage } from './home.page';
 
 import { HomePageRoutingModule } from './home-routing.module';
+import {VideoPlayerComponent} from './video-player/video-player.component';
+
+import {File} from '@ionic-native/file/ngx';
+import {FileTransfer} from '@ionic-native/file-transfer/ngx';
 
 
 @NgModule({
@@ -14,6 +18,10 @@ import { HomePageRoutingModule } from './home-routing.module';
     IonicModule,
     HomePageRoutingModule
   ],
-  declarations: [HomePage]
+  declarations: [HomePage, VideoPlayerComponent],
+  providers: [
+    File,
+    FileTransfer
+  ]
 })
 export class HomePageModule {}
