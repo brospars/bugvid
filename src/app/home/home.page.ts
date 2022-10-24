@@ -1,7 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {forkJoin, Observable, Observer} from 'rxjs';
-import {File} from '@ionic-native/file/ngx';
-import {FileTransfer, FileTransferObject} from '@ionic-native/file-transfer/ngx';
+import {File} from '@awesome-cordova-plugins/file/ngx';
+import {FileTransfer, FileTransferObject} from '@awesome-cordova-plugins/file-transfer/ngx';
 import {distinctUntilChanged} from 'rxjs/operators';
 import {Capacitor} from '@capacitor/core';
 

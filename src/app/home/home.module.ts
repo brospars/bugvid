@@ -7,8 +7,8 @@ import { HomePage } from './home.page';
 import { HomePageRoutingModule } from './home-routing.module';
 import {VideoPlayerComponent} from './video-player/video-player.component';
 
-import {File} from '@ionic-native/file/ngx';
-import {FileTransfer} from '@ionic-native/file-transfer/ngx';
+import {File} from '@awesome-cordova-plugins/file/ngx';
+import {FileTransfer} from '@awesome-cordova-plugins/file-transfer/ngx';
 
 
 @NgModule({
